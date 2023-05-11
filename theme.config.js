@@ -87,7 +87,7 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'toni@vitalclick.co.za',
+    recipient: 'hello@abidakun.com',
     sender: 'hello@abidakun.com',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
