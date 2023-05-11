@@ -1,8 +1,8 @@
 ---
 layout: Home-2
 seo:
-  title: Web Developer
-  description: Custom description for this page goes here
+  title: Anthony Abidakun - Web Developer & Growth Consultant
+  description: Dedicated to helping businesses thrive in the digital landscape. I helps organisations identify and fix the issues they face when trying to reach their goals.
 ---
 
 
