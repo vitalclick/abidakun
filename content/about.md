@@ -15,15 +15,17 @@ images:
 ---
 ##### <span>01.</span> About me
 
-I helps organisations identify and fix the issues they face when trying to reach their goals. The idea here is to use specific tools and expertise to support organisations through all phases of the growth cycle.
+Meet Anthony Abidakun, a seasoned Web Developer and Growth Consultant dedicated to helping businesses thrive in the digital landscape. With a passion for technology and a deep understanding of growth strategies, Anthony brings a unique blend of technical expertise and business acumen to drive online success.
+
+Whether you're a startup looking to establish a strong online presence or an established business aiming to revamp your digital strategy, Anthony Abidakun is the partner you can trust to navigate the dynamic world of web development and growth consultation. With his expertise, dedication, and innovative mindset, Anthony empowers businesses to thrive in the digital realm and achieve their full potential.
 
 ##### <span>02.</span> Framework Preferences
 
-Web Development: For web development, my framework preferences include React, Angular, Next.js, Vue.js, Laravel and WordPress.
+**Web Development:** For web development, my framework preferences include React, Angular, Next.js, Vue.js, Laravel and WordPress.
 
-Machine Learning: In machine learning, my framework preferences include TensorFlow, PyTorch, and scikit-learn. These frameworks provide a range of tools for building, training, and deploying machine learning models.
+**Machine Learning:** In machine learning, my framework preferences include TensorFlow, PyTorch, and scikit-learn. These frameworks provide a range of tools for building, training, and deploying machine learning models.
 
-Data Science: For data science, my framework preferences include Pandas, NumPy, and Matplotlib. These frameworks provide a range of tools for data manipulation, analysis, and visualization.
+**Data Science:** For data science, my framework preferences include Pandas, NumPy, and Matplotlib. These frameworks provide a range of tools for data manipulation, analysis, and visualization.
 
 
 
