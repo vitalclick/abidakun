@@ -11,7 +11,7 @@ seo:
 images:
   - src: /hero-5.png
     alt: my photo
-  - src: /hero-mobile4.png
+  - src: /anthony-mobile.png
     alt: my photo
 ---
 
