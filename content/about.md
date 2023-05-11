@@ -47,8 +47,8 @@ list:
   - Front-End Design
   - Back-End Development
   - Modern Frameworks
-  - Data Science
   - AI and Machine Learning
+  - Data Science
 ---
 
 
