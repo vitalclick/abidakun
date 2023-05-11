@@ -2,7 +2,7 @@
 layout: Post
 title: How to Deploy a Nextjs App on cPanel efficiently
 description: In this article we will learn about how to efficiently deploy a Next JS application on cPanel.
-date: '2023-05-10'
+date: '2023-05-01'
 tags:
   - node-js
   - next-js
