@@ -21,6 +21,7 @@ images:
 
 As a Growth Consultant, I help companies and organizations resolve issues related to their operations in order to achieve sustainable growth. Taking businesses to new heights by helping them move forward in a realistic but visionary manner.
 
+
 ```js {2-5} showLineNumbers
 const services = [
   'Web Development'
@@ -53,6 +54,5 @@ if (have_a_project) navigate('/contact')
 </Button>
 
 [Get in Touch](/contact)
-
 
 

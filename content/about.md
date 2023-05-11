@@ -143,24 +143,7 @@ list:
       src: /icons/wordpress.svg
 ---
 
-
 ---history[0]
-title: Employment
-list:
-  - name: VitalClick Technologies
-    description: Web3 Developer
-    date: 2010-Present
-  - name: Vircil Intl Co..
-    description: Back-End Developer and Designer
-    date: 2018-2020
-  - name: University of South Africa
-    description: Technical Support
-    date: 2013-2022
----
-
-
-
----history[1]
 title: Education
 list:
   - name: Federal University of Tech, Akure
@@ -178,4 +161,18 @@ list:
   - name: Udacity
     description: NanoDegree (Data Analyst)
     date: 2019
+---
+
+---history[1]
+title: Employment
+list:
+  - name: VitalClick Technologies
+    description: Web3 Developer
+    date: 2010-Present
+  - name: Vircil Intl Co..
+    description: Back-End Developer and Designer
+    date: 2018-2020
+  - name: University of South Africa
+    description: Technical Support
+    date: 2013-2022
 ---
