@@ -9,7 +9,7 @@ seo:
 repositories:
   - vitalclick/edaface-school
   - vitalclick/analyzeabtestresults
-  - vitalclick/pdsnd_github
+  - vitalclick/bikeshare_udacity
 ---
 
 <PageTitle>
