@@ -64,10 +64,10 @@ list:
     level: 3
     icon:
       src: /icons/react.svg
-  - title: Angular
+  - title: Next.js
     level: 4
     icon:
-      src: /icons/angularjs.svg
+      src: /icons/next-js.svg
   - title: HTML/CSS
     level: 5
     icon:
