@@ -19,15 +19,6 @@ Meet Anthony Abidakun, a seasoned Web Developer and Growth Consultant dedicated 
 
 Whether you're a startup looking to establish a strong online presence or an established business aiming to revamp your digital strategy, Anthony Abidakun is the partner you can trust to navigate the dynamic world of web development and growth consultation. With his expertise, dedication, and innovative mindset, Anthony empowers businesses to thrive in the digital realm and achieve their full potential.
 
-##### <span>02.</span> Framework Preferences
-
-**Web Development:** For web development, my framework preferences include React, Angular, Next.js, Vue.js, Laravel and WordPress.
-
-**Machine Learning:** In machine learning, my framework preferences include TensorFlow, PyTorch, and scikit-learn. These frameworks provide a range of tools for building, training, and deploying machine learning models.
-
-**Data Science:** For data science, my framework preferences include Pandas, NumPy, and Matplotlib. These frameworks provide a range of tools for data manipulation, analysis, and visualization.
-
-
 
 ---cta
 ---
@@ -110,6 +101,18 @@ list:
     level: 4
     icon:
       src: /icons/git.svg
+  - title: PyTorch
+    level: 4
+    icon:
+      src: /icons/excel.svg
+  - title: TensorFlow
+    level: 4
+    icon:
+      src: /icons/excel.svg
+  - title: Scikit-Learn
+    level: 4
+    icon:
+      src: /icons/excel.svg
   - title: Excel
     level: 5
     icon:
