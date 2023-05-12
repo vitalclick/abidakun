@@ -7,7 +7,7 @@ seo:
 
 ---github
 repositories:
-  - vitalclick/edaface-school
+  - vitalclick/edaface-project
   - vitalclick/analyzeabtestresults
   - vitalclick/bikeshare_udacity
 ---
