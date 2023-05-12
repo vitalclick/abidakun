@@ -7,286 +7,36 @@ tags:
   - react
   - next-js
 images:
-  - src: /photos/blog-team.jpg
+  - src: /photos/headless-cms.jpg
     alt: image alt attribute
 ---
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
+In today's digital landscape, web applications play a crucial role in delivering content and engaging user experiences. To create dynamic and scalable web apps, developers often turn to modern tools and technologies. One such combination gaining popularity is using a headless CMS (Content Management System) with React, a powerful JavaScript library for building user interfaces. In this article, we will explore the benefits and process of building a web app with a headless CMS and React.
 
-### Paragraphs
+###### Understanding Headless CMS
 
-To create paragraphs, use a blank line to separate one or more lines of text like this:
+Traditionally, a CMS combines content creation, management, and presentation within a single system. However, a headless CMS decouples the content management functionality from the front-end presentation layer. This separation allows developers to utilize any technology stack for the presentation layer, making it highly flexible and adaptable.
 
-First paragraph. I really like using Markdown.
+###### Advantages of Headless CMS
+1. Content Management Flexibility: With a headless CMS, content creators can focus on managing content without worrying about its presentation. They can use a familiar and user-friendly interface to create and organize content, while developers can leverage APIs to fetch and display content in various formats and platforms.
 
-Second paragraph. *Italic*, **bold**, ~~strikethrough~~, Emoji 😂 ⛺, and `monospace`. I think I'll use it to format all of my documents from now on.
+2. Front-End Freedom: Headless CMS provides developers with the freedom to choose any front-end technology or framework, such as React, Angular, or Vue.js, to build the user interface. This flexibility enables the creation of highly interactive and dynamic web applications that can be easily scaled and maintained.
 
----
+3. Enhanced Performance: By decoupling the content management and presentation layers, a headless CMS reduces the complexity of the front-end codebase. This optimization results in improved performance and faster page load times, enhancing the user experience.
 
-### Headings
+4. Multi-Channel Content Delivery: Since a headless CMS delivers content through APIs, it allows the same content to be used across multiple channels, such as websites, mobile apps, IoT devices, or even digital signage. This ability to repurpose content saves time and effort while maintaining consistency across various platforms.
 
-To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).
+Building a Web App with Headless CMS and React
+Now that we understand the advantages of a headless CMS let's dive into the process of building a web app using this architecture with React.
 
-# Heading level 1
+1. Choose a Headless CMS: Start by selecting a headless CMS that aligns with your project requirements. Popular choices include Contentful, Strapi, Sanity, and Prismic. Consider factors such as ease of use, available features, scalability, and pricing.
 
-## Heading level 2
+2. Define Content Structure: Define the content structure and create content models within the CMS. This involves identifying the different types of content your web app requires and setting up fields and relationships accordingly. For example, if building a blog, you might have content models for blog posts, authors, categories, and tags.
 
-### Heading level 3
+3. Set Up API Integration: Headless CMS platforms provide APIs to access and manipulate content programmatically. Set up the necessary API integrations in your React project to fetch and update content from the CMS. You can use libraries like Axios or the CMS's official SDKs to interact with the API.
 
-#### Heading level 4
+4. Build React Components: Begin building your React components that will render the content fetched from the headless CMS. Leverage the power of React to create reusable UI components and implement the necessary logic to display the content dynamically. Use React Router for handling routing if your web app requires multiple pages.
 
-##### Heading level 5
+5. Fetch and Display Content: Utilize the API endpoints provided by the headless CMS to fetch the required content. Typically, you'll make API requests within React's lifecycle methods or useEffect hooks. Retrieve the data, transform it if needed, and pass it down to the relevant components for rendering.
 
-###### Heading level 6
-
----
-
-### Code-Block
-
-The Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. To do that, you’ll use three backticks (```) on the lines before and after the code block. The best part? You don’t have to indent any lines!
-
-  ```js  {4-7} showLineNumbers
-  import contact from './contact.js';
-
-  // below 3 lines are highlighted
-  const person = {
-    name: 'Sara',
-    age: 25,
-  }
-
-  let name = person.name;
-  let age = person.age;
-
-  // returns a promise
-  let countValue = new Promise(function (resolve, reject) {
-    reject('Promise rejected');
-  });
-  ```
-
-Code blocks can also be used inside the `<Wide />` component.
-
-<Wide>
-
-  ```js  {4-7} showLineNumbers
-  import contact from './contact.js';
-
-  // below 3 lines are highlighted
-  const person = {
-    name: 'Sara',
-    age: 25,
-  }
-
-  let name = person.name;
-  let age = person.age;
-
-  // returns a promise
-  let countValue = new Promise(function (resolve, reject) {
-    reject('Promise rejected');
-  });
-  ```
-
-</Wide>
-
----
-
-### Tip Jar
-
-In order to receive tips (contributions) from your readers, we've developed a fully-functional `<TipJar />` React Component integrated with [ConvertKit](https://convertkit.com?lmref=CeGsMw&utm_campaign=documentation) that you can use anywhere in your blog posts or pages.
-
-```md
-<TipJar />
-```
-This will render the TipJar component:
-
-<TipJar />
-
----
-
-### Newsletter
-
-The theme is integrated with [ConvertKit](https://convertkit.com?lmref=CeGsMw&utm_campaign=documentation) to grow your email list of subscribers. By creating an email list, you can notify your subscribers when you publish new blog posts or market and sell your digital products to your subscribers. The newsletter component is
-
-```md
-<Newsletter className="bg-omega-800 p-10" />
-```
-This will render the Newsletter component:
-
-<Newsletter className="bg-omega-800 p-10" />
----
-
-### Images
-
-To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.
-
-```md
-![This is the caption](/photos/blog-performance.jpg "Team meeting")
-```
-This image is wrapper inside the `<Wide />` component.
-
-<Wide>
-  ![This is the caption](/photos/blog-performance.jpg "Team meeting")
-</Wide>
-
-### Linked Images
-
-To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
-
-```md
-[![This is the caption](/photos/blog-performance.jpg "Team meeting")](https://en.wikipedia.org/wiki/Meeting)
-```
-
----
-
-### Youtube Videos
-
-You can embed youtube videos using the `<Youtube />` component and passing the Youtube video ID to it.
-
-```md
-<Youtube
-  id="W4UhNo3HAMw"
-  title="Next.js 13.1 Explained"
-/>
-```
-This will render below embed:
-
-<Wide>
-  <Youtube
-    id="W4UhNo3HAMw"
-    title="Next.js 13.1 Explained"
-  />
-</Wide>
-
----
-
-### Tables
-
-To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, you should also add a pipe on either end of the row.
-
-Tables can look like this:
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Table data   | Text        |
-
-You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
-
-|Header 1 |Header 2  | Header 3|
-|:--- | ---: | :---:|
-|Align left| Align right|center text|
-|cell data1|cell data2|cell data3|
-
----
-
-### Lists
-
-You can organize items into ordered and unordered lists.
-
-##### Ordered Lists
-
-To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
-
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
-
-##### Unordered Lists
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
-##### Nested Lists
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
----
-
-### Links
-
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
-
-Here's a link to [a website](http://foo.bar), to a [local
-page](services), and to a [code block section in the current
-doc](#code-block).
-
----
-
-### Blockquotes
-
-To create a blockquote, add a > in front of a paragraph. The rendered output looks like this:
-
-> Block quotes are
-> written like so.
-
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
-
-> ###### Blockquotes with Other Elements
->
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**.
-
----
-
-### HTML
-
-You can use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.
-
-To use HTML, place the tags in the text of your Markdown-formatted file.
-
-```md
-This **word** is bold. This <em>word</em> is italic.
-```
-
-The rendered output looks like this:
-
-This **word** is bold. This <em>word</em> is italic.
-
----
-
-### Task Lists
-
-Task lists (also referred to as checklists and todo lists) allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (-) and brackets with a space ([ ]) in front of task list items. To select a checkbox, add an x in between the brackets ([x]).
-
-```md
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-```
-
-The rendered output looks like this:
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+6. Implement CRUD Operations: Depending on your application's requirements, you may need to implement CRUD (Create, Read, Update, Delete) operations for managing content. These operations will involve
