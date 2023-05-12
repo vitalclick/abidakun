@@ -56,3 +56,19 @@ if (have_a_project) navigate('/contact')
 [Get in Touch](/contact)
 
 
+---companies
+title:
+list:
+  - name: Company 1
+    icon:
+      src: /icons/vitalclick.svg
+  - name: Company 2
+    icon:
+      src: /icons/vitalhost.svg
+  - name: Company 3
+    icon:
+      src: /icons/vit.svg
+  - name: Company 4
+    icon:
+      src: /icons/kenhoward.svg
+---

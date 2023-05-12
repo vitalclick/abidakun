@@ -86,7 +86,9 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
           <ContentRenderer source={cta} />
         </div>
       </div>
-     
+      <div className="mt-6 mt-12 hidden w-3/4 px-2 pr-12 md:block">
+        <Companies {...companies} />
+      </div>
     </div>
   </div>
 )
