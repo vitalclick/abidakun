@@ -25,7 +25,7 @@ As a Growth Consultant, I help companies and organizations resolve issues relate
 ```js {2-5} showLineNumbers
 const services = [
   'Web Development'
-  'Data Analyst & Machine Learning'
+  'Data Analyst, AI, & ML'
   'UI/UX Design'
   'Mobile App Development'
 ]
