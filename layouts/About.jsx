@@ -94,10 +94,10 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
         </div>
         <div className="basis-2/3">
           {skills_header && (
-            <div className="p-6 md:p-12">
-              <h3 className="mb-2 hidden md:block">{skills_header.title}</h3>
+            <div className="p-6 md:p-12 hidden md:block">
+              <h3 className="mb-2">{skills_header.title}</h3>
               {skills_header.list && (
-                <h3 className="inline hidden md:block">
+                <h3 className="inline">
                   <Typewriter lines={skills_header.list} lineClassName="text-gradient-500" />
                 </h3>
               )}
