@@ -101,20 +101,8 @@ list:
     level: 4
     icon:
       src: /icons/git.svg
-  - title: PyTorch
-    level: 4
-    icon:
-      src: /icons/excel.svg
-  - title: TensorFlow
-    level: 4
-    icon:
-      src: /icons/excel.svg
-  - title: Scikit-Learn
-    level: 4
-    icon:
-      src: /icons/excel.svg
   - title: Excel
-    level: 5
+    level: 4
     icon:
       src: /icons/excel.svg
 ---
