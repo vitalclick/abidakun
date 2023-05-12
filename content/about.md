@@ -61,7 +61,7 @@ list:
     icon:
       src: /icons/javascript.svg
   - title: React
-    level: 3
+    level: 4
     icon:
       src: /icons/react.svg
   - title: Next.js
@@ -95,7 +95,7 @@ list:
     icon:
       src: /icons/python.svg
   - title: SQL
-    level: 3
+    level: 4
     icon:
       src: /icons/sql.svg
   - title: Tableau
@@ -120,7 +120,7 @@ list:
 title: Back-End Development
 list:
   - title: Node.js
-    level: 3
+    level: 4
     icon:
       src: /icons/nodedotjs.svg
   - title: Django
