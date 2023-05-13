@@ -42,7 +42,7 @@ Before jumping to the next part of the article, I assume the following :
 
 To do so, create a **server.js** file in the root directory of the project, and add the following code in it. Or you can follow this official Next JS guide to find the content that you need to put in the file.
 
-  ```js
+  ```js showLineNumbers
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
@@ -82,7 +82,7 @@ app.prepare().then(() => {
 ---
 **Step 2.** You have to edit the **package.json** file in order to set the environment to production on the **start** script and run the **server.js** file that you’ve just created in the project root directory. Basically what we’ve done here is replace the default next start server with our own custom server.
 
-```js
+```js showLineNumbers
 {
    "scripts": {
       "start": "NODE_ENV=production node server.js"

@@ -24,4 +24,4 @@ collection:
 
 ### Categories
 
-<small>I write about web development and modern JavaScript frameworks.</small>
+<small>I write about leveraging digital solutions to help drive business growth and optimize performance.</small>

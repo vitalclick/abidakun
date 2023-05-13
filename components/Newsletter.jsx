@@ -10,10 +10,9 @@ const IntroMessage = () => (
     <h3>
       <em>Stay Tuned</em>
     </h3>
-    <h6>Want to become a Next.js pro?</h6>
+    <h6>Want to stay informed and inspired?</h6>
     <small>
-      The best articles, links and news related to web development delivered once a week to your
-      inbox.
+    The best articles and practical advice to help businesses harness the power of technology, data, and strategic planning to achieve their objectives - delivered once a week to your inbox.
     </small>
   </div>
 )

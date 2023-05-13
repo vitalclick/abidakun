@@ -3,7 +3,7 @@ layout: Blog
 title: Digital Marketing
 seo:
   title: Digital Marketing Articles
-  description: Custom description for this page goes here
+  description: Readers can learn about the latest trends, best practices, and techniques to effectively reach and engage target audiences in the digital realm.
 collection:
   path: /blog
   recordsPerPage: 9
@@ -17,4 +17,4 @@ collection:
 
 ### Digital Marketing Articles
 
-Marketing tactics and technologies used to reach consumers online.
+They offer practical tips, case studies, and industry insights to assist you in developing effective digital marketing strategies, reaching your target audience, and driving measurable results for your business or brand.

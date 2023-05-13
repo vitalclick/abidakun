@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Building A Web App With Headless CMS And React
-description: Anim ex adipisicing pariatur aliqua. Esse ad laboris amet dolor Ea minim officia labore nisi duis mollit et nulla. Velit ex eiusmod nostrud ipsum pariatur id et cillum.
+description: In this article, we will explore the benefits and process of building a web app with a headless CMS and React.
 date: '2022-12-22'
 tags:
   - react

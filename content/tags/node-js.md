@@ -3,7 +3,7 @@ layout: Blog
 title: Node.js
 seo:
   title: Node.js Articles
-  description: Custom description for this page goes here
+  description: These articles cover various aspects of Node.js development, including its features, benefits, and best practices.
 collection:
   path: /blog
   recordsPerPage: 9
@@ -17,4 +17,4 @@ collection:
 
 ### Node.js Articles
 
-Node.js is an open-source, cross-platform JavaScript runtime environment.
+Node.js articles provide valuable insights and practical guidance on Node.js, a popular JavaScript runtime that allows developers to build scalable and efficient server-side applications. 

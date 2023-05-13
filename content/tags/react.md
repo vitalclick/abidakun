@@ -3,7 +3,7 @@ layout: Blog
 title: React
 seo:
   title: React Articles
-  description: Custom description for this page goes here
+  description: React articles provide valuable resources to help you build modern, interactive, and efficient user interfaces using React.
 collection:
   path: /blog
   recordsPerPage: 9
@@ -17,4 +17,4 @@ collection:
 
 ### React Articles
 
-Front-end JavaScript library for building user interfaces based on UI components.
+This articles provide valuable insights and practical guidance on React, a popular JavaScript library for building user interfaces. These articles cover various aspects of React development.
