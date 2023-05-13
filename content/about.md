@@ -162,7 +162,7 @@ list:
   - name: VitalClick Technologies
     description: Web3 Developer
     date: 2010-Present
-  - name: Vircil Intl Co..
+  - name: CrestWorld Intl Co..
     description: Back-End Developer and Designer
     date: 2018-2020
   - name: University of South Africa
