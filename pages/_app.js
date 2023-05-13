@@ -2,8 +2,9 @@ import React from 'react'
 import { MDXProvider } from '@mdx-js/react'
 import MDXComponents from '@/components/MDX'
 import '@/styles/globals.css'
-import { useEffect } from 'react';
-import { initGA, logPageView } from '../utils/googleAnalytics';
+import { useEffect } from 'react'
+import { initGA, logPageView } from '../utils/googleAnalytics'
+import OGImage from '@/components/OGImage'
 
 function MyApp({ Component, pageProps }) {
   // Use the layout defined at the page level, if available
