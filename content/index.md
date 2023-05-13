@@ -64,10 +64,10 @@ list:
       src: /icons/vitalclick.svg
   - name: Company 2
     icon:
-      src: /icons/vitalhost.svg
+      src: /icons/sportson.svg
   - name: Company 3
     icon:
-      src: /icons/vit.svg
+      src: /icons/vitalhost.svg
   - name: Company 4
     icon:
       src: /icons/kenhoward.svg
