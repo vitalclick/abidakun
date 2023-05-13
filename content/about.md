@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: Custom description for this page goes here
+  description: Meet Anthony Abidakun, a seasoned Web Developer and Growth Consultant dedicated to helping businesses thrive in the digital landscape.
 ---
 
 

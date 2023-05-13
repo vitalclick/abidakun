@@ -2,7 +2,7 @@
 layout: Services
 seo:
   title: Web Development Services
-  description: Custom description for this page goes here
+  description: The range of services encompasses various aspects of digital solutions, empowering clients to achieve their goals and enhance their business operations.
 ---
 
 

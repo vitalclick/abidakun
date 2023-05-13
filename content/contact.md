@@ -2,7 +2,7 @@
 layout: Contact
 seo:
   title: Contact Me
-  description: Custom description for this page goes here
+  description: Thinking about a new project, a problem to solve, or just want to connect? Let's do it!
 ---
 
 

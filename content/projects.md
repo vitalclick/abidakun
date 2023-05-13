@@ -2,7 +2,7 @@
 layout: Projects
 seo:
   title: Web Development Projects
-  description: Custom description for this page goes here
+  description: I have transformed ideas into remarkable digital products.
 ---
 
 ---github

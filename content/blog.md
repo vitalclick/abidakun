@@ -2,7 +2,7 @@
 layout: Blog
 seo:
   title: My Blog
-  description: Custom description for this page goes here
+  description: I write about leveraging digital solutions to help drive business growth and optimize performance
 collection:
   path: /blog
   sortBy: date
