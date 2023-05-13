@@ -2,7 +2,7 @@
 layout: Post
 title: How to Add Google Analytics to a Next.js App
 description: In this article, we will learn how add Google Analytics to a Next.js app. The first step is to set up a Google Analytics account.
-date: '2023-05-01'
+date: '2021-12-01'
 tags:
   - node-js
   - next-js
