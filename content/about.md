@@ -59,10 +59,6 @@ list:
     level: 4
     icon:
       src: /icons/next-js.svg
-  - title: HTML/CSS
-    level: 5
-    icon:
-      src: /icons/html5.svg
   - title: Bootstrap
     level: 4
     icon:
@@ -71,6 +67,10 @@ list:
     level: 5
     icon:
       src: /icons/figma.svg
+  - title: HTML/CSS
+    level: 5
+    icon:
+      src: /icons/html5.svg
 ---
 
 
