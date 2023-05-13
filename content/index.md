@@ -37,11 +37,11 @@ if (have_a_project) navigate('/contact')
 ---achievements
 - number: 12+
   text: Years of experience
-- number: 500+
+- number: 800+
   text: Projects Completed
 - number: 10
   text: OpenSource Libraries
-- number: 1000+
+- number: 200+
   text: Clients World Wide
 ---
 
