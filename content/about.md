@@ -166,6 +166,6 @@ list:
     description: Back-End Developer and Designer
     date: 2018-2020
   - name: University of South Africa
-    description: Technical Support
+    description: eTutor Support
     date: 2013-2022
 ---
