@@ -1,9 +1,9 @@
 ---
 layout: Blog
-title: Next.js
+title: Full-Stack JDK
 seo:
-  title: Next.js Articles
-  description: Next.js enables you to create full-stack web applications by extending the latest React features.
+  title: Full-Stack JavaScript Development Articles
+  description: Full-Stack JavaScript Development articles includes frameworks like Next.js, Node.js, React, Angular, or Vue.js
 collection:
   path: /blog
   recordsPerPage: 9
@@ -12,9 +12,9 @@ collection:
   filterBy:
     tags:
       $in:
-        - next-js
+        - full-stack
 ---
 
 ### Next JS Framework Articles
 
-Next.js articles provide valuable insights and practical guidance on Next.js, a popular open-source framework for building React applications. These articles cover various aspects of Next.js development.
+Full-Stack JavaScript Development articles includes frameworks like Next.js, Node.js, React, Angular, or Vue.js, which allow developers to create dynamic and interactive user interfaces.

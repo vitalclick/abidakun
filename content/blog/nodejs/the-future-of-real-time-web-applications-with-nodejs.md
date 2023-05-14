@@ -4,7 +4,7 @@ title: The Future of Real-Time Web Applications with Node.js
 description: In this article, we will explore the future of real-time web applications with Node.js and how it continues to shape the web landscape.
 date: '2022-10-01'
 tags:
-  - node-js
+  - full-stack
 images:
   - src: /photos/real-time-web-applications-with-nodejs.jpg
     alt: image alt attribute
