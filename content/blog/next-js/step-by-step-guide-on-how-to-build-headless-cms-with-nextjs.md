@@ -4,7 +4,7 @@ title: Step-by-Step Guide on How to Build an application with the frontend in Ne
 description: In this article, we will learn how add Google Analytics to a Next.js app. The first step is to set up a Google Analytics account.
 date: '2023-05-15'
 tags:
-  - full-stack
+  - next-js
 images:
   - src: /photos/step-by-step-guide-on-how-to-build-headless-cms-with-nextjs.jpg
     alt: image alt attribute

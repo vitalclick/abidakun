@@ -12,7 +12,7 @@ collection:
   filterBy:
     tags:
       $in:
-        - full-stack
+        - next-js
 ---
 
 ### Next JS Framework Articles

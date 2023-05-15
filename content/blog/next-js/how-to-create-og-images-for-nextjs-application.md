@@ -4,8 +4,9 @@ title: How to Create Open Graph (OG) Images for your Next.js Application
 description: To create Open Graph (OG) images for your Next.js application, you can utilize the html2canvas library to capture a screenshot of a specific component and generate an image file.
 date: '2023-05-13'
 tags:
-  - full-stack
+  - next-js
   - node-js
+  - react
 images:
   - src: /photos/open-graph.jpg
     alt: image alt attribute
