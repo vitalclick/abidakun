@@ -31,7 +31,9 @@ Here are the key components and steps involved in implementing Next.js Markdown 
 
 8. **Search implementation**: Once your data is indexed, you can implement the search functionality in your Next.js application. This involves sending search queries to Algolia and displaying the search results on your pages or components.
 
-###### To integrate Next.js Markdown with Algolia effectively, you may want to follow a step-by-step guide below:
+### Step-by-Step Guide:
+
+To integrate Next.js Markdown with Algolia effectively, you may want to follow a step-by-step guide below:
 
 ##### Step 1: Set up your Next.js project
 
