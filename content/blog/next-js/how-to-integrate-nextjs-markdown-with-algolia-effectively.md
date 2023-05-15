@@ -73,7 +73,7 @@ This is the content of my example post.
 
 ##### Step 5: Configure Algolia
 
-Sign up for an Algolia account and create an Algolia application. Note down your Algolia application ID and API key.
+[Sign up](https://www.algolia.com/users/sign_up) for an Algolia account and create an Algolia application. Note down your Algolia application ID and API key.
 
 ##### Step 6: Index Markdown content to Algolia
 
