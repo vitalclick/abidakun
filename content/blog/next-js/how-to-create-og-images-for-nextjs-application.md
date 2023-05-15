@@ -5,6 +5,7 @@ description: To create Open Graph (OG) images for your Next.js application, you 
 date: '2023-05-13'
 tags:
   - full-stack
+  - node-js
 images:
   - src: /photos/open-graph.jpg
     alt: image alt attribute

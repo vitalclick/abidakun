@@ -5,6 +5,7 @@ description: In this article, we will learn how add Google Analytics to a Next.j
 date: '2021-12-01'
 tags:
   - full-stack
+  - node-js
 images:
   - src: /photos/how-to-add-google-analytics-to-nextjs.jpg
     alt: image alt attribute
