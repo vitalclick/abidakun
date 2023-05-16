@@ -2,7 +2,7 @@
 layout: Post
 title: Forecasting using ARIMA (Autoregressive Integrated Moving Average) Technique.
 description: Here's a step-by-step guide on implementing ARIMA (Autoregressive Integrated Moving Average) for time series forecasting using Python.
-date: '2023-05-22'
+date: '2023-05-15'
 tags:
   - analytics
 images:

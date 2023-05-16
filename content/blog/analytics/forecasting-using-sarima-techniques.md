@@ -2,7 +2,7 @@
 layout: Post
 title: Forecasting using SARIMA (Seasonal Autoregressive Integrated Moving Average) Technique
 description: Here's a step-by-step guide on implementing SARIMA (Seasonal Autoregressive Integrated Moving Average) for time series forecasting using Python.
-date: '2023-05-19'
+date: '2023-05-12'
 tags:
   - analytics
 images:
