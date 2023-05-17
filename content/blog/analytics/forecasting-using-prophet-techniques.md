@@ -14,10 +14,10 @@ images:
 Prophet is an open-source library developed by Facebook for time series forecasting. It provides a simplified and automated approach to generate high-quality forecasts. Here's how to use Prophet:
 
 #### Introduction to Prophet
-We introduce the key concepts of Prophet, including trend estimation, seasonality modeling, and holiday effects. Prophet can handle various types of time series patterns, including multiple seasonality and non-linear trends.
+I introduce the key concepts of Prophet, including trend estimation, seasonality modeling, and holiday effects. Prophet can handle various types of time series patterns, including multiple seasonality and non-linear trends.
 
 #### Model Fitting and Forecasting
-We fit the Prophet model to the historical time series data and generate forecasts for a specified time
+I fit the Prophet model to the historical time series data and generate forecasts for a specified time
 
 ##### Here's a step-by-step guide on implementing Prophet for time series forecasting using Python:
 
