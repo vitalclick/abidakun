@@ -4,7 +4,7 @@ title: Here are 10 new AI tools you cannot miss in 2023 - If you're not using AI
 description: In the rapidly evolving world of AI, staying ahead of the curve is crucial. To help you navigate the latest advancements, here are 10 new AI tools that you cannot afford to miss in 2023.
 date: '2023-05-19'
 tags:
-  - marketing
+  - productivity
 images:
   - src: /photos/gif.gif
     alt: image alt attribute
