@@ -10,7 +10,7 @@ images:
     alt: image alt attribute
 ---
 
-Forecasting is a crucial task in many industries, enabling businesses to make informed decisions based on future predictions. In this article, we will explore ARIMA for time series forecasting.  We will provide a step-by-step guide and code examples using Python to demonstrate how to implement these techniques.
+Forecasting is a crucial task in many industries, enabling businesses to make informed decisions based on future predictions. In this article, I will explore ARIMA for time series forecasting.  I will provide a step-by-step guide and code examples using Python to demonstrate how to implement these techniques.
 
 ### Understanding Time Series Forecasting
 
