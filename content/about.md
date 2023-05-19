@@ -139,6 +139,9 @@ list:
 ---history[0]
 title: Education
 list:
+  - name: Yaba College of Tech, Yaba
+    description: OND (Elect/Elect Engineering)
+    date: Jan-Dec 1997 (NC)
   - name: Federal University of Tech, Akure
     description: BTech (Applied Meterology)
     date: 1997-2002
