@@ -10,7 +10,7 @@ seo:
 ---personal_info
 name: ANTHONY ABIDAKUN
 images:
-  - src: /anthony4.jpg
+  - src: /anthony5.jpg
     alt: my image
 ---
 ##### <span>01.</span> About me
