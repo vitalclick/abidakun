@@ -9,7 +9,7 @@ seo:
 
 ---main
 images:
-  - src: /hero-7.png
+  - src: /hero-8.png
     alt: my photo
   - src: /anthony-mobile7.png
     alt: my photo
