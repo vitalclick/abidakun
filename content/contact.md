@@ -27,7 +27,7 @@ Use the form on this page or get in touch by other means.
 
   <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: hello@abidakun.com
 
-  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Linkedin: [AbidakunAnthony](https://linkedin.com/in/abidakunanthony/)
+  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Linkedin: [AbidakunAnthony](https://www.linkedin.com/in/anthonyabidakun/)
 
   <Icon src="/icons/logo-twitter.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Twitter: [@anthonyabidakun](https://twitter.com/anthonyabidakun)
 </small>

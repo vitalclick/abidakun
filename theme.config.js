@@ -64,7 +64,7 @@ export const social = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/abidakunanthony/',
+    url: 'https://www.linkedin.com/in/anthonyabidakun/',
     Icon: IoLogoLinkedin,
   },
 ]
