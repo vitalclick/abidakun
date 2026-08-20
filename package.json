@@ -7,7 +7,7 @@
     "url": "https://github.com/ElegantStack/edgefolio.git"
   },
   "engines": {
-    "node": ">=14.0"
+    "node": ">=18.18.0"
   },
   "engineStrict": true,
   "scripts": {
@@ -19,7 +19,6 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@next/font": "^13.1.6",
     "@sendgrid/mail": "^7.7.0",
     "autoprefixer": "^10.4.13",
     "clsx": "^1.2.1",
@@ -31,7 +30,7 @@
     "html2canvas": "^1.4.1",
     "image-size": "^1.0.2",
     "js-yaml": "^4.1.0",
-    "next": "^13.1.6",
+    "next": "^15.5.23",
     "next-mdx-remote": "^6.0.0",
     "next-seo": "^5.15.0",
     "next-share": "^0.19.0",
@@ -55,25 +54,27 @@
     "remark-gfm": "^4.0.1",
     "remark-squeeze-paragraphs": "^6.0.0",
     "remark-unwrap-images": "^4.0.0",
-    "sharp": "^0.31.3",
+    "sharp": "^0.35.3",
     "sift": "^16.0.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.1.6",
-    "@semantic-release/changelog": "^6.0.2",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^9.0.2",
-    "@svgr/webpack": "^6.5.1",
+    "@next/bundle-analyzer": "^15.5.23",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "@semantic-release/npm": "^13.1.5",
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
-    "eslint-config-next": "^13.1.6",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.23",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "next-remote-watch": "^2.0.0",
-    "postcss": "^8.4.21",
+    "postcss": "^8.5.26",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.2",
+    "semantic-release": "^25.0.9",
     "tailwind-scrollbar": "^2.1.0",
     "tailwindcss": "^3.2.4"
   }
