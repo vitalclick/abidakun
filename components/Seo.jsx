@@ -3,7 +3,7 @@ import { NextSeo } from 'next-seo'
 import { siteMetaData } from '../theme.config'
 
 const Seo = (props) => {
-  const { seo = {}, title, description, images, pageUrl } = props
+  const { seo = {}, title, description, images, pageUrl, noindex } = props
 
   const metaData = {
     ...siteMetaData,
@@ -23,7 +23,7 @@ const Seo = (props) => {
     locale: metaData.locale,
   }
 
-  return <NextSeo {...metaData} openGraph={openGraph} />
+  return <NextSeo {...metaData} noindex={noindex} openGraph={openGraph} />
 }
 
 export default Seo

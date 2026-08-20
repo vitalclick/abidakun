@@ -18,10 +18,12 @@ export async function getStaticProps({ params }) {
     slug = slug.slice(0, pageIndex)
   }
 
-  let page = await getPageBySlug(slug)
+  const page = await getPageBySlug(slug)
 
+  // Unknown slug: let Next serve pages/404.js with a real 404 status rather
+  // than rendering the not-found content at 200.
   if (!page) {
-    page = await getPageBySlug(['not-found'])
+    return { notFound: true }
   }
 
   const props = { page }
@@ -65,7 +67,9 @@ export async function getStaticPaths() {
     },
   }))
 
-  return { paths, fallback: true }
+  // Every page comes from the content directory at build time, so anything
+  // outside `paths` genuinely does not exist and should 404 immediately.
+  return { paths, fallback: false }
 }
 
 export default function Page({ pagination, page = {} }) {
