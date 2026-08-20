@@ -7,7 +7,18 @@ seo:
 
 ---github
 repositories:
-  - vitalclick/Lumen-Christi
+  - repo: vitalclick/OpenBallot
+    description:
+      Nigeria's first open, document-first election results platform - results published
+      straight from the signed Form EC8A and cross-checked across parties.
+  - repo: vitalclick/Computicket
+    description:
+      Nigeria's all-in-one ticketing marketplace - events, bus travel, cinema, hotels and
+      flights, with an in-app wallet, resale and organiser tooling.
+  - repo: vitalclick/GoMaths
+    description:
+      AI-powered mathematics learning platform for South African and African learners -
+      student, parent, teacher and tutor apps on one API.
 ---
 
 <PageTitle>
