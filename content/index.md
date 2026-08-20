@@ -2,7 +2,7 @@
 layout: Home-2
 seo:
   title: Anthony Abidakun - Web Developer & Growth Consultant
-  description: Dedicated to helping businesses thrive in the digital landscape. I helps organisations identify and fix the issues they face when trying to reach their goals.
+  description: Dedicated to helping businesses thrive in the digital landscape. I help organisations identify and fix the issues they face when trying to reach their goals.
 ---
 
 
@@ -10,9 +10,9 @@ seo:
 ---main
 images:
   - src: /hero-8.png
-    alt: my photo
+    alt: Anthony Abidakun, Web Developer and Growth Consultant
   - src: /anthony-mobile7.png
-    alt: my photo
+    alt: Anthony Abidakun, Web Developer and Growth Consultant
 ---
 
 # <Typewriter>Anthony Abidakun</Typewriter>
@@ -24,10 +24,10 @@ As a Growth Consultant, I help companies and organizations resolve issues relate
 
 ```js {2-5} showLineNumbers
 const services = [
-  'Web Development'
-  'Data Analyst, AI, & ML'
-  'UI/UX Design'
-  'Mobile App Development'
+  'Web Development',
+  'Data Analyst, AI, & ML',
+  'UI/UX Design',
+  'Mobile App Development',
 ]
 if (have_a_project) navigate('/contact')
 ```
@@ -59,16 +59,16 @@ if (have_a_project) navigate('/contact')
 ---companies
 title:
 list:
-  - name: Company 1
+  - name: VitalClick
     icon:
       src: /icons/vitalclick.svg
-  - name: Company 2
+  - name: Sportson
     icon:
       src: /icons/sportson.svg
-  - name: Company 3
+  - name: VitalHost
     icon:
       src: /icons/vitalhost.svg
-  - name: Company 4
+  - name: Ken Howard
     icon:
       src: /icons/kenhoward.svg
 ---

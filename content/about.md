@@ -11,7 +11,7 @@ seo:
 name: ANTHONY ABIDAKUN
 images:
   - src: /anthony5.jpg
-    alt: my image
+    alt: Anthony Abidakun
 ---
 ##### <span>01.</span> About me
 
