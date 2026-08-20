@@ -39,6 +39,12 @@ Lumen Christi is a daily Catholic companion app I built to bring Mass readings, 
 
 The app ships as a Progressive Web App and as native iOS and Android builds via Capacitor, so the same codebase serves the browser, App Store, and Play Store.
 
+### Links
+
+- **Web app** - [lumenchristi.app](https://lumenchristi.app/)
+- **iOS** - [Download on the App Store](https://apps.apple.com/us/app/lumen-christi/id6765803546)
+- **Android** - [Get it on Google Play](https://play.google.com/store/apps/details?id=com.lumenchristi.app)
+
 ### Key Features
 
 - **Daily liturgy at a glance** - today's feast, liturgical color, lectionary cycle, and Mass readings surfaced immediately on open
@@ -56,4 +62,4 @@ The frontend is React 18 with TypeScript on Vite 5, styled with Tailwind CSS usi
 
 ### Conclusion
 
-Lumen Christi is an ongoing project I actively maintain and ship updates to - the offline-first architecture and multi-language hymn and Bible content were the two hardest problems to get right, since the app needs to stay genuinely useful for someone praying with no signal. It's live on the web and in active development for iOS and Android.
+Lumen Christi is an ongoing project I actively maintain and ship updates to - the offline-first architecture and multi-language hymn and Bible content were the two hardest problems to get right, since the app needs to stay genuinely useful for someone praying with no signal. It's live on the web and published on the App Store and Google Play.
