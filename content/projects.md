@@ -7,9 +7,7 @@ seo:
 
 ---github
 repositories:
-  - vitalclick/edaface-project
-  - vitalclick/analyzeabtestresults
-  - vitalclick/bikeshare_udacity
+  - vitalclick/Lumen-Christi
 ---
 
 <PageTitle>
