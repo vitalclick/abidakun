@@ -2,7 +2,7 @@
 layout: 'BlankCenter'
 seo:
   title: 404 Not Found
-  description: Custom description for this page goes here
+  description: The page you were looking for could not be found.
 ---
 
 #### <span>Oops!</span>

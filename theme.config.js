@@ -117,12 +117,13 @@ export const siteMetaData = {
   siteName: 'Anthony Abidakun',
   defaultTitle: 'Anthony Abidakun Personal Site',
   titleTemplate: 'Anthony Abidakun | %s',
-  description: 'A short description goes here.',
+  description:
+    'Dedicated to helping businesses thrive in the digital landscape as a Web Developer and Growth Consultant.',
   email: 'hello@abidakun.com',
   locale: 'en_US',
   twitter: {
-    handle: '@handle',
-    site: '@site',
+    handle: '@anthonyabidakun',
+    site: '@anthonyabidakun',
     cardType: 'summary_large_image',
   },
 }
