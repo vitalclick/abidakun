@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lumen Christi mark">
+  <!-- Brand navy background with luminous cross -->
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#F4D58D" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#C9A24A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1B2B43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cross" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBE7B0"/>
+      <stop offset="100%" stop-color="#C9A24A"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1B2B43"/>
+  <circle cx="32" cy="28" r="22" fill="url(#halo)"/>
+  <!-- Cross -->
+  <path d="M29 12h6v14h12v6H35v20h-6V32H17v-6h12z" fill="url(#cross)"/>
+</svg>
