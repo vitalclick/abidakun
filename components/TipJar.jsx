@@ -7,13 +7,32 @@ import { config } from '../theme.config'
 
 const { tipUrl } = config.convertKit || {}
 
+const COMMERCE_SCRIPT = 'https://productive-blogging.ck.page/commerce.js'
+
+/**
+ * Origins this component actually connects to. Both are ck.page subdomains,
+ * but preconnect matches on exact origin, so a hint for "ck.page" - or for
+ * "convertkit.com", which nothing here requests - warms no connection at all.
+ */
+const originOf = (url) => {
+  try {
+    return new URL(url).origin
+  } catch {
+    return null
+  }
+}
+
+const preconnectOrigins = [...new Set([originOf(COMMERCE_SCRIPT), originOf(tipUrl)])].filter(
+  Boolean
+)
+
 const TipJar = (props) => {
   const { className, ...rest } = props
 
   React.useEffect(() => {
     if (!tipUrl) return
 
-    const scriptSrc = 'https://productive-blogging.ck.page/commerce.js'
+    const scriptSrc = COMMERCE_SCRIPT
     const scriptSelector = `script[src^="${scriptSrc}"`
     const iframeSelector = `iframe[src^="${tipUrl}"`
 
@@ -47,10 +66,12 @@ const TipJar = (props) => {
       {...rest}
     >
       <Head>
-        <link rel="preconnect" href="https://convertkit.com" />
-        <link rel="dns-prefetch" href="https://convertkit.com" />
-        <link rel="preconnect" href="https://stripe.com" />
-        <link rel="dns-prefetch" href="https://stripe.com" />
+        {preconnectOrigins.map((origin) => (
+          <link key={`preconnect-${origin}`} rel="preconnect" href={origin} />
+        ))}
+        {preconnectOrigins.map((origin) => (
+          <link key={`dns-prefetch-${origin}`} rel="dns-prefetch" href={origin} />
+        ))}
       </Head>
       <p className="my-2 text-black md:m-0">
         Hi there! <strong className="text-black">Want to support my work?</strong>
