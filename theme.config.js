@@ -60,7 +60,7 @@ export const social = [
     Icon: IoLogoTwitter,
   },
   {
-    name: 'Instagram',
+    name: 'GitHub',
     url: 'https://github.com/vitalclick',
     Icon: IoLogoGithub,
   },
