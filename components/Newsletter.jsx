@@ -1,7 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import FormInput from '@/components/FormInput'
-import Icon from '@/components/Icon'
 import Button from '@/components/Button'
 import { IoClose } from 'react-icons/io5'
 
@@ -12,7 +11,9 @@ const IntroMessage = () => (
     </h3>
     <h6>Want to stay informed and inspired?</h6>
     <small>
-    The best articles and practical advice to help businesses harness the power of technology, data, and strategic planning to achieve their objectives - delivered once a week to your inbox.
+      The best articles and practical advice to help businesses harness the power of technology,
+      data, and strategic planning to achieve their objectives - delivered once a week to your
+      inbox.
     </small>
   </div>
 )
@@ -28,23 +29,6 @@ const SuccessMessage = ({ handleReset }) => (
     <button onClick={() => handleReset()} className="h-5 w-5 hover:bg-omega-900">
       <IoClose className="mx-auto h-4 w-4 text-omega-500" />
     </button>
-  </div>
-)
-
-const Badge = () => (
-  <div>
-    <a
-      className="group h-6 text-omega-400 no-underline"
-      target="_blank"
-      rel="noreferrer"
-      href="https://convertkit.com?lmref=CeGsMw"
-    >
-      <span className="text-xs">BUILT WITH</span>
-      <Icon
-        src="/icons/convertkit.svg"
-        className="ml-2 mb-1 inline h-6 w-24 align-middle group-hover:text-[#FB6970]"
-      />
-    </a>
   </div>
 )
 
@@ -125,7 +109,6 @@ const Newsletter = ({ className }) => {
           </Button>
         </form>
       )}
-      <Badge />
     </div>
   )
 }
