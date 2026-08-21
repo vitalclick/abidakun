@@ -122,7 +122,18 @@ The first attempt was phone photos: a curved book, pages rotated ninety and a hu
 6. **Verify every citation** against the Roman Lectionary for that day - this is what catches OCR errors in chapter and verse numbers, which are the ones that would actually mislead someone.
 7. **Keep the body text verbatim.** Fix obvious OCR noise, change nothing else.
 
-Yorùbá tone marks and under-dots are exactly where OCR is weakest, and the parser has to fold diacritics just to match a heading reliably.
+Yorùbá tone marks and under-dots are exactly where OCR is weakest, and the parser has to fold diacritics just to match a heading reliably. Here is untouched output from one page, mid-reading:
+
+```
+pé: 'Gbogbo ohun tí Olúwa wí ni awa yòò ṣe, tí a ô si
+tẹ̀lé." Nígbà náà ni Mòsẹ̀ bu ẹ̀jẹ̀ náàà wọn àwọn ẹ̀nìyàn bi
+é ti wí pé: 'Éyí ni májẹ̀mú ti Olúwa bá yín dá pẹ̀lú gbogbc
+ìlànà wònyí.'
+```
+
+Mostly right, and wrong in the ways OCR is always wrong. `gbogbc` for `gbogbo`, where a worn `o` at the end of a line reads as a `c`. `náàà` with a diacritic doubled. A `ô` standing in for an `ó`. An opening single quote closed with a double. None of that is catastrophic on its own, and all of it needs a human who reads Yorùbá to catch, because a spellchecker has no opinion about a language this book may be the most authoritative digital source for.
+
+That is why the raw OCR is archived rather than thrown away. There are 424 of those text files under `scanned/ocr-raw/`, one per page side, named for the book pages they came from - `1080_1129_p04.txt` and so on - alongside 34 extracted JSON files. The rule is process-once: if a reading needs re-transcribing, you go back to the stored OCR text, not to the scanner. Re-OCR'ing is slow, it is not perfectly reproducible across tesseract versions, and the scans themselves are the one artefact that cannot be regenerated without the physical book on a flatbed again.
 
 Some pages simply lost. Book page 1150 stayed jumbled even with the fallback mode and is flagged for a rescan. One gospel verse was corrupted by a column-break artifact. Another was left illegible where a sentence split across columns. Those are recorded as known gaps rather than quietly patched, because patching them would mean writing Scripture myself, and that is the one thing the rule forbids.
 
