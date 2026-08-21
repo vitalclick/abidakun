@@ -17,11 +17,11 @@ repositories:
     description:
       Nigeria's all-in-one ticketing marketplace - events, bus travel, cinema, hotels and
       flights, with an in-app wallet, resale and organiser tooling.
-  - repo: vitalclick/GoMaths
+  - repo: vitalclick/InsightXI
     language: TypeScript
     description:
-      AI-powered mathematics learning platform for South African and African learners -
-      student, parent, teacher and tutor apps on one API.
+      AI-powered football analytics platform - probabilistic, explainable match
+      intelligence served from a Python model layer behind a NestJS API.
 ---
 
 <PageTitle>
