@@ -10,6 +10,8 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin, IoLogoGithub } from 're
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 
+const { siteUrl } = require('./site.config')
+
 /**
  * Main Menu Items
  */
@@ -87,8 +89,8 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'hello@abidakun.com',
-    sender: 'hello@abidakun.com',
+    recipient: 'toni@vitalclick.net',
+    sender: 'toni@vitalclick.net',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
 }
@@ -112,14 +114,14 @@ export const mdxConfig = {
  */
 
 export const siteMetaData = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'https://abidakun.com',
+  siteUrl,
   authorName: 'Anthony Abidakun',
   siteName: 'Anthony Abidakun',
   defaultTitle: 'Anthony Abidakun Personal Site',
   titleTemplate: 'Anthony Abidakun | %s',
   description:
     'Dedicated to helping businesses thrive in the digital landscape as a Web Developer and Growth Consultant.',
-  email: 'hello@abidakun.com',
+  email: 'toni@vitalclick.net',
   locale: 'en_US',
   twitter: {
     handle: '@anthonyabidakun',

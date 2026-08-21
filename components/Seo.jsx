@@ -23,7 +23,7 @@ const Seo = (props) => {
     locale: metaData.locale,
   }
 
-  return <NextSeo {...metaData} noindex={noindex} openGraph={openGraph} />
+  return <NextSeo {...metaData} canonical={pageUrl} noindex={noindex} openGraph={openGraph} />
 }
 
 export default Seo

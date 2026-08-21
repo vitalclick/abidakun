@@ -3,8 +3,10 @@
  * https://www.npmjs.com/package/next-sitemap
  */
 
+const { siteUrl } = require('./site.config')
+
 module.exports = {
-  siteUrl: process.env.SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
+  siteUrl,
   generateRobotsTxt: true,
   // ...other options
 }

@@ -25,7 +25,7 @@ Use the form on this page or get in touch by other means.
 <small>
   <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500" /> Phone: (+27) 73-363-5148
 
-  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: hello@abidakun.com
+  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: toni@vitalclick.net
 
   <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Linkedin: [AbidakunAnthony](https://www.linkedin.com/in/anthonyabidakun/)
 
