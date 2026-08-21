@@ -89,8 +89,12 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
+    // Where enquiries land.
     recipient: 'toni@vitalclick.net',
-    sender: 'toni@vitalclick.net',
+    // The mailbox the API route authenticates as (SMTP_USER). A dedicated
+    // send-only account, so the credential in the deployment environment is
+    // not the one guarding the inbox above.
+    sender: 'website@vitalclick.net',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
 }
