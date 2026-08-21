@@ -22,6 +22,21 @@ repositories:
     description:
       AI-powered football analytics platform - probabilistic, explainable match
       intelligence served from a Python model layer behind a NestJS API.
+  - repo: vitalclick/bikeshare_udacity
+    language: Python
+    description:
+      Bike-share usage patterns across Chicago, New York City and Washington DC, from
+      Motivate's trip data - an interactive CLI that filters and compares the three.
+  - repo: vitalclick/Kaggriculture
+    language: Jupyter Notebook
+    description:
+      A Kaggle competition agent that farms a 10x10 board over a 30-day season, selling
+      into a shared market whose prices react to every sale.
+  - repo: vitalclick/deeplearningseries
+    language: Jupyter Notebook
+    description:
+      Machine learning walkthroughs, raw data through to a trained and evaluated model -
+      wine quality, MNIST digits, flight delays and an LSTM stock predictor.
 ---
 
 <PageTitle>
