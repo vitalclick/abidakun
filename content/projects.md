@@ -12,11 +12,11 @@ repositories:
     description:
       Nigeria's first open, document-first election results platform - results published
       straight from the signed Form EC8A and cross-checked across parties.
-  - repo: vitalclick/Computicket
-    language: TypeScript
+  - repo: vitalclick/Biohub
+    language: Jupyter Notebook
     description:
-      Nigeria's all-in-one ticketing marketplace - events, bus travel, cinema, hotels and
-      flights, with an in-app wallet, resale and organiser tooling.
+      Cell tracking in 4-D fluorescence microscopy - detects and links cells across time
+      and reconstructs their lineages, division events included.
   - repo: vitalclick/InsightXI
     language: TypeScript
     description:
