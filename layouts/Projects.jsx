@@ -8,7 +8,9 @@ const Layout = ({ projects, github }) => {
     <div className="mx-auto p-3 md:p-6 lg:p-12">
       <div className="prose prose-headings:mb-4 dark:prose-invert">
         <ContentRenderer source={github} />
-        <div className="mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:15rem] md:mt-12 md:gap-6">
+        {/* Capped at three columns so the current six repositories fill two even
+            rows. Add xl:grid-cols-4 once there are eight. */}
+        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:mt-12 md:gap-6 lg:grid-cols-3">
           {github?.repositories?.records?.map((item, i) => (
             <Reveal animation="fade-in slide-in-top" delay={i * 100} key={item.name}>
               <RepositoryCard {...item} />
