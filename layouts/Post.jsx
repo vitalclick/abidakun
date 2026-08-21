@@ -1,6 +1,6 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
-import { ArticleJsonLd } from 'next-seo'
+import { ArticleJsonLd, BreadcrumbJsonLd } from 'next-seo'
 import ContentRenderer from '@/components/ContentRenderer'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
@@ -26,8 +26,27 @@ const Layout = ({
 }) => {
   const { siteUrl, authorName } = siteMetaData || {}
 
+  // /blog/<category>/<slug> and /projects/<slug> both render through this
+  // layout, so the parent crumb comes from the first path segment. Only
+  // segments that are real pages are linked.
+  const [section] = (pageUrl || '').replace(siteUrl, '').split('/').filter(Boolean)
+  const breadcrumbs = [
+    { position: 1, name: 'Home', item: siteUrl },
+    ...(section
+      ? [
+          {
+            position: 2,
+            name: section.charAt(0).toUpperCase() + section.slice(1),
+            item: `${siteUrl}/${section}`,
+          },
+        ]
+      : []),
+    { position: section ? 3 : 2, name: title, item: pageUrl },
+  ]
+
   return (
     <>
+      <BreadcrumbJsonLd itemListElements={breadcrumbs} />
       <ArticleJsonLd
         type="BlogPosting"
         url={pageUrl}

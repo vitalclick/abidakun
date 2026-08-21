@@ -7,7 +7,7 @@ tags:
   - htmlcss
 images:
   - src: /photos/css-rules-may2023-edition.jpg
-    alt: image alt attribute
+    alt: CSS rules every web designer should have to hand
 ---
 
 ### Introduction

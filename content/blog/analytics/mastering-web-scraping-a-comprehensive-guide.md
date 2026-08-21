@@ -8,7 +8,7 @@ tags:
   - marketing
 images:
   - src: /photos/mastering-web-scraping-a-comprehensive-guide.jpg
-    alt: image alt attribute
+    alt: Extracting structured data from websites with a web scraper
 ---
 
 ## Introduction:

@@ -7,7 +7,7 @@ tags:
   - next-js
 images:
   - src: /photos/nextjs-app-on-cpanel.jpg
-    alt: image alt attribute
+    alt: Deploying a Next.js application to cPanel shared hosting
 ---
 
 As you can see on the article title, we are going to learn **how to efficiently deploy a Next JS application on cPanel.**

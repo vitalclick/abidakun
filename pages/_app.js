@@ -4,33 +4,36 @@ import MDXComponents from '@/components/MDX'
 import '@/styles/globals.css'
 import { useEffect } from 'react'
 import { initGA, logPageView } from '../utils/googleAnalytics'
-import OGImage from '@/components/OGImage'
+import StructuredData from '@/components/StructuredData'
 
 function MyApp({ Component, pageProps }) {
   // Use the layout defined at the page level, if available
-  const getLayout = Component.getLayout || ((page) => page);
+  const getLayout = Component.getLayout || ((page) => page)
 
   useEffect(() => {
-    initGA(); // Initialize Google Analytics
-    logPageView(); // Log the initial pageview
+    initGA() // Initialize Google Analytics
+    logPageView() // Log the initial pageview
 
     // Log pageview on route change
     const handleRouteChange = (url) => {
-      logPageView();
-    };
+      logPageView()
+    }
 
     // Event listener for route changes
-    window.addEventListener('routeChangeComplete', handleRouteChange);
+    window.addEventListener('routeChangeComplete', handleRouteChange)
 
     // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('routeChangeComplete', handleRouteChange);
-    };
-  }, []);
+      window.removeEventListener('routeChangeComplete', handleRouteChange)
+    }
+  }, [])
 
   return (
-    <MDXProvider components={MDXComponents}>{getLayout(<Component {...pageProps} />)}</MDXProvider>
+    <MDXProvider components={MDXComponents}>
+      <StructuredData />
+      {getLayout(<Component {...pageProps} />)}
+    </MDXProvider>
   )
 }
 
-export default MyApp;
+export default MyApp

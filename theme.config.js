@@ -121,7 +121,10 @@ export const siteMetaData = {
   siteUrl,
   authorName: 'Anthony Abidakun',
   siteName: 'Anthony Abidakun',
-  defaultTitle: 'Anthony Abidakun Personal Site',
+  defaultTitle: 'Anthony Abidakun - Web Developer & Growth Consultant',
+  // 1200x630 card shared when a page has no image of its own.
+  // Regenerate with: node scripts/og-image/build.mjs
+  defaultOgImage: '/og-image.jpg',
   titleTemplate: 'Anthony Abidakun | %s',
   description:
     'Dedicated to helping businesses thrive in the digital landscape as a Web Developer and Growth Consultant.',

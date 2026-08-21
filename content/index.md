@@ -17,7 +17,7 @@ images:
 
 # <Typewriter>Anthony Abidakun</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+## *Web Developer* <span>&</span> *Growth Consultant*
 
 As a Growth Consultant, I help companies and organizations resolve issues related to their operations in order to achieve sustainable growth. Taking businesses to new heights by helping them move forward in a realistic but visionary manner.
 

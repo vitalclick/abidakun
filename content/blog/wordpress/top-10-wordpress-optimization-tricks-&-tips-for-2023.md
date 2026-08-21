@@ -7,7 +7,7 @@ tags:
   - wordpress
 images:
   - src: /photos/wordpress-optimization-tricks-&-tips.jpg
-    alt: image alt attribute
+    alt: Performance optimization techniques for a WordPress site
 ---
 
 ### Introduction:

@@ -7,7 +7,7 @@ tags:
   - analytics
 images:
   - src: /photos/prophet3.jpg
-    alt: image alt attribute
+    alt: A Prophet forecast plotted over a historical time series
 ---
 
 ### Prophet

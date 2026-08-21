@@ -7,7 +7,7 @@ tags:
   - marketing
 images:
   - src: /photos/future-of-digital-marketing.jpg
-    alt: image alt attribute
+    alt: Trends shaping the future of digital marketing
 ---
 
 ## Introduction:

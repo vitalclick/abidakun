@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      /* __INTER_FONT_FACE__ */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1200px; height: 630px; }
+      body {
+        font-family: Inter, system-ui, sans-serif;
+        background: #000;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+      }
+      /* The site's own omega-900 -> omega-800 panel gradient */
+      .panel {
+        position: absolute; inset: 0;
+        background: linear-gradient(115deg, #18181b 0%, #18181b 55%, #27272a 100%);
+      }
+      /* Echo of the theme-switcher swatch column on the left edge */
+      .swatches { position: absolute; left: 0; top: 232px; }
+      .swatches i { display: block; width: 18px; height: 30px; margin-bottom: 6px; }
+      /* Offset gradient block, the motif behind every button on the site */
+      .block-shadow {
+        position: absolute; right: 84px; top: 150px;
+        width: 330px; height: 330px;
+        background: linear-gradient(100deg, #CAFE00 0%, #DBFF51 45%, #22c55e 100%);
+      }
+      .block {
+        position: absolute; right: 100px; top: 134px;
+        width: 330px; height: 330px;
+        background: #0b0b0d;
+        border: 4px solid rgba(255,255,255,0.06);
+        display: flex; align-items: center; justify-content: center;
+      }
+      .block span {
+        font-size: 132px; font-weight: 800; letter-spacing: -4px;
+        background: linear-gradient(120deg, #CAFE00, #22c55e);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      }
+      .content { position: absolute; left: 84px; top: 122px; width: 672px; }
+      .eyebrow {
+        font-size: 21px; font-weight: 700; letter-spacing: 5px;
+        color: #CAFE00; text-transform: uppercase; margin-bottom: 26px;
+      }
+      h1 {
+        font-size: 64px; line-height: 1.06; font-weight: 800;
+        letter-spacing: -2px; margin-bottom: 24px;
+      }
+      h1 .grad {
+        background: linear-gradient(120deg, #CAFE00, #22c55e);
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      }
+      p { font-size: 25px; line-height: 1.45; color: #a1a1aa; font-weight: 400; }
+      .rule {
+        position: absolute; left: 84px; bottom: 92px;
+        width: 92px; height: 5px;
+        background: linear-gradient(90deg, #CAFE00, #22c55e);
+      }
+      .url {
+        position: absolute; left: 84px; bottom: 52px;
+        font-size: 23px; font-weight: 600; color: #d4d4d8; letter-spacing: 0.3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel"></div>
+    <div class="swatches">
+      <i style="background:#CAFE00"></i>
+      <i style="background:#f97316"></i>
+      <i style="background:#ec4899"></i>
+      <i style="background:#3b82f6"></i>
+    </div>
+    <div class="block-shadow"></div>
+    <div class="block"><span>&lt;/&gt;</span></div>
+    <div class="content">
+      <div class="eyebrow">Anthony Abidakun</div>
+      <h1>Web Developer<br />&amp; <span class="grad">Growth Consultant</span></h1>
+      <p>Helping businesses thrive in the digital landscape &mdash; web, data and mobile products that move the numbers.</p>
+    </div>
+    <div class="rule"></div>
+    <div class="url">abidakun.vercel.app</div>
+  </body>
+</html>

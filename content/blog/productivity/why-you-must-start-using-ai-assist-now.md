@@ -7,7 +7,7 @@ tags:
   - productivity
 images:
   - src: /photos/why-you-must-start-using-ai-assist-now.jpg
-    alt: image alt attribute
+    alt: Using an AI assistant to get more done at work
 featured: true
 ---
 

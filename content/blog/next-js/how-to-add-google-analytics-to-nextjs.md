@@ -9,7 +9,7 @@ tags:
   - react
 images:
   - src: /photos/how-to-add-google-analytics-to-nextjs.jpg
-    alt: image alt attribute
+    alt: Google Analytics tracking wired into a Next.js application
 ---
 
 To add Google Analytics to a Next.js app, you can follow these steps:

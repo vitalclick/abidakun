@@ -7,7 +7,7 @@ tags:
   - wordpress
 images:
   - src: /photos/troubleshooting-common-wordpress-issues.jpg
-    alt: image alt attribute
+    alt: Diagnosing and fixing common WordPress errors
 ---
 
 WordPress is undoubtedly one of the most popular content management systems (CMS) out there, powering millions of websites worldwide. However, like any other software, it's not immune to problems and errors. In this article, we'll explore some common issues faced by WordPress users and provide practical solutions to resolve them. So, let's dive in!

@@ -7,7 +7,7 @@ tags:
   - productivity
 images:
   - src: /photos/how-to-build-your-own-ai-apps-with-no-code.jpg
-    alt: image alt attribute
+    alt: Building an AI application on OpenAI without writing code
 featured: true
 ---
 

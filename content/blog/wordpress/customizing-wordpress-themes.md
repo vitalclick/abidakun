@@ -7,7 +7,7 @@ tags:
   - wordpress
 images:
   - src: /photos/customizing-wordpress-themes.jpg
-    alt: image alt attribute
+    alt: Customizing a WordPress theme to match a brand
 ---
 
 WordPress offers a wide range of themes that allow you to create a stunning website without extensive coding knowledge. However, if you want your website to truly reflect your brand identity, you may need to modify and personalize the theme you choose. In this article, we will provide you with some tips on how to customize WordPress themes to match your brand, along with relevant code snippets. Let's get started!

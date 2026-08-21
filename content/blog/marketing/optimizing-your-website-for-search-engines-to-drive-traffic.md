@@ -7,7 +7,7 @@ tags:
   - marketing
 images:
   - src: /photos/optimizing-your-website-for-search-engines-to-drive-traffic.jpg
-    alt: image alt attribute
+    alt: Optimizing a website for search engines to grow organic traffic
 ---
 
 ## Introduction:

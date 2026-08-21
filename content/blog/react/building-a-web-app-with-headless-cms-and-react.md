@@ -8,7 +8,7 @@ tags:
   - next-js
 images:
   - src: /photos/headless-cms.jpg
-    alt: image alt attribute
+    alt: A React frontend consuming content from a headless CMS
 ---
 
 In today's digital landscape, web applications play a crucial role in delivering content and engaging user experiences. To create dynamic and scalable web apps, developers often turn to modern tools and technologies. One such combination gaining popularity is using a headless CMS (Content Management System) with React, a powerful JavaScript library for building user interfaces. In this article, we will explore the benefits and process of building a web app with a headless CMS and React.

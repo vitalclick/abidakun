@@ -7,7 +7,7 @@ tags:
   - marketing
 images:
   - src: /photos/data-driven.jpg
-    alt: image alt attribute
+    alt: Charts and market-share graphs floating above an open hand, illustrating data-driven decision making
 ---
 
 ## Introduction:

@@ -7,7 +7,7 @@ tags:
   - marketing
 images:
   - src: /photos/rise-of-ai-in-digital-marketing.jpg
-    alt: image alt attribute
+    alt: Artificial intelligence reshaping digital marketing strategy
 ---
 
 ## Introduction:

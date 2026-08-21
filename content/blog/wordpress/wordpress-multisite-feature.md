@@ -7,7 +7,7 @@ tags:
   - wordpress
 images:
   - src: /photos/wordpress-multisite-feature.jpg
-    alt: image alt attribute
+    alt: Running several websites from one installation with WordPress Multisite
 ---
 
 #### Introduction:

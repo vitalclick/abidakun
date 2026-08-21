@@ -7,7 +7,7 @@ tags:
   - next-js
 images:
   - src: /photos/step-by-step-guide-on-how-to-build-headless-cms-with-nextjs.jpg
-    alt: image alt attribute
+    alt: A headless setup pairing a Next.js frontend with a WordPress backend
 ---
 
 To build an application with the frontend in Next.js and the backend in WordPress, you can follow these steps:

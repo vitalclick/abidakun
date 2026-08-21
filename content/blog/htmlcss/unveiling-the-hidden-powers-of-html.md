@@ -7,7 +7,7 @@ tags:
   - htmlcss
 images:
   - src: /photos/unveiling-the-hidden-powers-of-html.jpg
-    alt: image alt attribute
+    alt: Lesser-known HTML features and what they can do
 ---
 
 ### Introduction

@@ -7,7 +7,7 @@ tags:
   - productivity
 images:
   - src: /photos/most-critical-skills-in-ai-age.jpg
-    alt: image alt attribute
+    alt: The skills worth learning and teaching in the age of AI
 featured: true
 ---
 

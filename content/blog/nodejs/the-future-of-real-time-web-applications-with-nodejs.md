@@ -7,7 +7,7 @@ tags:
   - full-stack
 images:
   - src: /photos/real-time-web-applications-with-nodejs.jpg
-    alt: image alt attribute
+    alt: Real-time web applications built on Node.js
 featured: true
 ---
 

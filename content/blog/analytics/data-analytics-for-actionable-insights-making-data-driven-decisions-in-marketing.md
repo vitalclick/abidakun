@@ -8,7 +8,7 @@ tags:
   - analytics
 images:
   - src: /photos/data-analytics-for-actionable-insights.jpg
-    alt: image alt attribute
+    alt: Turning marketing analytics into actionable insight
 ---
 
 ## Introduction:

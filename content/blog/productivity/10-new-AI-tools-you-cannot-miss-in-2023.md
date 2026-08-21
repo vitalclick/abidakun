@@ -7,7 +7,7 @@ tags:
   - productivity
 images:
   - src: /photos/gif.gif
-    alt: image alt attribute
+    alt: A round-up of AI tools for everyday work
 ---
 
 In the rapidly evolving world of AI, staying ahead of the curve is crucial. To help you navigate the latest advancements, here are 10 new AI tools that you cannot afford to miss in 2023.

@@ -8,7 +8,7 @@ tags:
   - node-js
 images:
   - src: /photos/nextjs-markdown-with-algolia.jpg
-    alt: image alt attribute
+    alt: Next.js markdown content indexed for search with Algolia
 ---
 
 Next.js Markdown with Algolia is a combination of technologies and tools that allows you to create a search functionality for a Next.js application using Markdown files as a data source and Algolia as the search engine. It enables you to easily implement a powerful search experience for content stored in Markdown files.

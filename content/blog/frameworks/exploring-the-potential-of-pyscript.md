@@ -8,7 +8,7 @@ tags:
   - analytics
 images:
   - src: /photos/run-python-in-html.jpg
-    alt: image alt attribute
+    alt: PyScript running Python directly inside an HTML page
 ---
 
 ### Introduction:

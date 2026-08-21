@@ -7,7 +7,7 @@ tags:
   - frameworks
 images:
   - src: /photos/single-sign-on-across-multiple-laravel-applications.jpg
-    alt: image alt attribute
+    alt: Single sign-on shared across several Laravel applications
 ---
 
 Solution to achieve a single sign-on (SSO) across multiple Laravel applications running as subdomains of a single domain. Here's a detailed step-by-step guide with the necessary code to implement this.

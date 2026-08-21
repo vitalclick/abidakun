@@ -72,6 +72,12 @@ export async function getStaticPaths() {
   return { paths, fallback: false }
 }
 
+// Layouts that already render an <h1>: Post prints the page title, and the
+// Home layouts take theirs from the page's own markdown. The listing and
+// marketing pages set their title at h3/h5 for visual reasons, so they get a
+// screen-reader-only <h1> instead of shipping none at all.
+const LAYOUTS_WITH_OWN_H1 = ['Post', 'Home', 'Home-2', 'Home-3', 'Home-4']
+
 export default function Page({ pagination, page = {} }) {
   const { meta = {}, ...content } = page
   const router = useRouter()
@@ -85,6 +91,9 @@ export default function Page({ pagination, page = {} }) {
   return (
     <>
       <Seo {...meta} pageUrl={pageUrl} />
+      {!LAYOUTS_WITH_OWN_H1.includes(meta.layout) && (
+        <h1 className="sr-only">{meta.seo?.title || meta.title || siteMetaData.defaultTitle}</h1>
+      )}
       <DynamicLayout {...meta} {...content} pagination={pagination} pageUrl={pageUrl} />
     </>
   )
