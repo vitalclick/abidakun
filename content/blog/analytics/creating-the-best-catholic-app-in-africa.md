@@ -8,8 +8,8 @@ tags:
   - python
   - ocr
 images:
-  - src: /photos/creating-the-best-catholic-app-in-africa.jpg
-    alt: The Lumen Christi home screen showing the daily liturgy, the readings of the day, and the verse of the day
+  - src: /photos/lumen-christi-app-story.jpg
+    alt: Creating the Best Catholic App in Africa - a Lumen Christi case study, showing the app's daily Mass reading screen alongside a snippet of its codebase
 ---
 
 ## Why I built it
