@@ -37,6 +37,11 @@ repositories:
     description:
       Machine learning walkthroughs, raw data through to a trained and evaluated model -
       wine quality, MNIST digits, flight delays and an LSTM stock predictor.
+  - repo: vitalclick/Predicting-Soil-Grain-Size
+    language: Jupyter Notebook
+    description:
+      Predicting soil grain size distributions from images - a machine learning
+      pipeline that estimates particle size composition straight from photographs.
 ---
 
 <PageTitle>
